@@ -1,0 +1,57 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+//Custom Styles
+$color: rgba(0, 0, 0, 0.8);
+
+.navs{
+grid-area: navs;
+
+}
+.header{
+    grid-area: header;
+}
+
+
+
+.carousel{
+    .header{
+        height: calc(100vh - 89px) ;
+
+        img{
+            object-fit: cover;
+            object-position: center;
+        }
+    }
+
+}
+
+.carousel-item.overlay::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:$color ;
+}
+
+.main__caption{
+    margin-top: 15px;
+}
+
+.card-img-top{
+    height: 250px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.img-area{
+    width: 100px;
+    height: 100px;
+
+    img{
+        object-fit: cover;
+        object-position: center;
+    }
+}
+

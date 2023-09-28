@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Web commerce</title>
+    <link rel="shortcut icon" href="./img/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./css/custom.css" />
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap-icons/font/bootstrap-icons.css"
+    />
+  </head>
+  <body>
+    <section class="navs">
+      <nav class="bg-primary py-1 d-none d-sm-flex justify-content-center">
+        <a href="" class="text-white mx-4"><i class="bi bi-twitter"></i></a>
+        <a href="" class="text-white mx-4"><i class="bi bi-meta"></i></a>
+        <a href="" class="text-white mx-4"><i class="bi bi-whatsapp"></i></a>
+        <a href="" class="text-white mx-4"><i class="bi bi-instagram"></i></a>
+      </nav>
+
+      <nav class="navbar d-md-none navbar-dark bg-dark fixed-top">
+        <div class="container-fluid">
+          <a href="" class="navbar-brand d-flex align-items-center">
+            <img
+              src="./img/logo.png"
+              alt=""
+              width="25"
+              height="25"
+              class="mx-2"
+            />
+            Bootstrap Web
+          </a>
+          <button
+            class="navbar-toggler btn btn-sm"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasDarkNavbar"
+            aria-controls="offcanvasDarkNavbar"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div
+            class="offcanvas offcanvas-end text-bg-dark"
+            tabindex="-1"
+            id="offcanvasDarkNavbar"
+            aria-labelledby="offcanvasDarkNavbarLabel"
+          >
+            <div class="offcanvas-header">
+              <h5 class="offcanvas-title" id="offcanvasDarkNavbarLabel">
+                Bootstrap Web
+              </h5>
+              <button
+                type="button"
+                class="btn-close btn-close-white"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="offcanvas-body">
+              <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                <li class="nav-item">
+                  <a class="nav-link active" aria-current="page" href="#"
+                    >Inicio</a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Enlace</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link" href="#">Enlace</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link" href="#">Enlace</a>
+                </li>
+                <article
+                  class="d-flex justify-content-center align-items-center"
+                >
+                  <button class="btn btn-primary btn-sm rounded-pill" data-bs-toggle="modal" data-bs-target="#modalContacto">
+                    Contactame
+                  </button>
+                </article>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <nav class="navbar d-none d-md-flex navbar-expand bg-dark">
+        <div class="container">
+          <a href="" class="navbar-brand d-flex align-items-center text-white">
+            <img
+              src="./img/logo.png"
+              alt=""
+              width="25"
+              height="25"
+              class="mx-2"
+            />
+            Bootstrap Web
+          </a>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 me-md-3 mb-md-0">
+              <li class="nav-item">
+                <a
+                  class="nav-link active text-white"
+                  aria-current="page"
+                  href="#"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Enlace</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Enlace</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#">Enlace</a>
+              </li>
+            </ul>
+            <article>
+              <button class="btn btn-primary btn-sm rounded-pill" data-bs-toggle="modal" data-bs-target="#modalContacto">
+                Contactame
+              </button>
+            </article>
+          </div>
+        </div>
+      </nav>
+    </section>
+
+    <header class="my-2 my-sm-0 header">
+      <div class="row container-fluid my-5 my-sm-0 p-0 m-0">
+        <div
+          id="carouselExampleAutoplaying"
+          class="carousel slide p-0 w-100 header"
+          data-bs-ride="carousel"
+        >
+          <div class="carousel-indicators">
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="0"
+              class="active"
+              aria-current="true"
+              aria-label="Slide 1"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="1"
+              aria-label="Slide 2"
+            ></button>
+            <button
+              type="button"
+              data-bs-target="#carouselExampleIndicators"
+              data-bs-slide-to="2"
+              aria-label="Slide 3"
+            ></button>
+          </div>
+          <div class="carousel-inner h-100">
+            <div class="carousel-item active overlay">
+              <img
+              src="https://64.media.tumblr.com/2ad2b3e63912d7affbcfe3866797c880/tumblr_oklohnxWZY1qhyndxo1_1280.jpg"
+              class="d-block w-100 h-100"
+              alt="..."
+              />
+              <div
+                class="carousel-caption d-flex justify-content-center align-items-center flex-column h-100"
+              >
+              <h5 class="main__caption">Bienvenidos a nuestra Web</h5>
+              <p class="main__text">
+                  Some representative placeholder content for the first slide.
+                </p>
+              </div>
+            </div>
+            
+            <div class="carousel-item">
+                <img
+                src="./img/image.jpg"
+                class="d-block w-100 h-100"
+                alt="..."
+              />
+            </div>
+
+            <div class="carousel-item">
+              <img
+                src="./img/image3.jpg"
+                class="d-block w-100 h-100"
+                alt="..."
+              />
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <!-- Modal -->
+
+    <div class="modal fade" id="modalContacto" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title">Escribenos un mensaje</h5>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+
+            <div class="modal-body p-4">
+              <form class="row">
+                <div class="col-12 col-sm-6 mb-3">
+                    <label for="name">Nombre</label>
+                    <input type="text" class="form-control" id="name">
+                </div>
+                <div class="col-12 col-sm-6">
+                    <label for="email">Nombre</label>
+                    <input type="email" class="form-control" id="email">
+                </div>
+                <div class="col-12">
+                    <label for="msj">Nombre</label>
+                    <textarea type="text" class="form-control" id="msj"></textarea>
+                </div>
+              </form>
+            </div>
+
+            <div class="modal-footer p-0 align-self-center">
+            <button class="btn btn-primary"> Send
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <main class="container py-5">
+        <!-- Information -->
+        <article class="row py-5 border-bottom">
+            <div class="col-md-7 align-self-center">
+                <h2 class="display-2">Nosotros <span class="text-muted ms-1 fs-1">Trabajamos por ti</span></h2>
+                <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur, eum culpa consectetur.</p>
+            </div>
+            <div class="col-md-5">
+                <img src="./img/image4.jpg" alt="" class="w-100 h-100 rounded">
+            </div>
+        </article>
+
+        <article class="row py-5 ">
+            <div class="col-md-7 align-self-center order-md-2">
+                <h2 class="display-2">Servicios <span class="text-muted ms-1 fs-1">De primera calidad</span></h2>
+                <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur, eum culpa consectetur.</p>
+            </div>
+            <div class="col-md-5 order-md-1">
+                <img src="./img/image5.jpg" alt="" class="w-100 h-100 rounded">
+            </div>
+        </article>
+        
+        <!-- Products -->
+        <article class="row">
+                <div class="col-12">
+                    <div class="py-4 border-bottom">
+                        <h1 class="text-center display-2">Productos</h1>
+                    </div>
+                </div>
+        </article>
+
+        <article class="row py-5">
+            <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                <div class="card">
+                    <img src="./img/producto1.jpg" class="card-img-top" alt="..."">
+                    <div class="card-body">
+                      <h5 class="card-title">Iphone</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk</p>
+                      <a href="#" class="btn btn-primary">Comprar</a>
+                      <a href="#" class="btn btn-secondary">Ver detalles</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                <div class="card">
+                    <img src="./img/producto2.jpg" class="card-img-top" alt="..."">
+                    <div class="card-body">
+                      <h5 class="card-title">IMAC</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk</p>
+                      <a href="#" class="btn btn-primary">Comprar</a>
+                      <a href="#" class="btn btn-secondary">Ver detalles</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                <div class="card">
+                    <img src="./img/producto3.jpg" class="card-img-top" alt="..."">
+                    <div class="card-body">
+                      <h5 class="card-title">Android</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk</p>
+                      <a href="#" class="btn btn-primary">Comprar</a>
+                      <a href="#" class="btn btn-secondary">Ver detalles</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                <div class="card">
+                    <img src="./img/producto4.jpg" class="card-img-top" alt="..."">
+                    <div class="card-body">
+                      <h5 class="card-title">Apple Watch</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk</p>
+                      <a href="#" class="btn btn-primary">Comprar</a>
+                      <a href="#" class="btn btn-secondary">Ver detalles</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                <div class="card">
+                    <img src="./img/producto5.jpg" class="card-img-top" alt="..."">
+                    <div class="card-body">
+                      <h5 class="card-title">Xiomi</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk</p>
+                      <a href="#" class="btn btn-primary">Comprar</a>
+                      <a href="#" class="btn btn-secondary">Ver detalles</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                <div class="card">
+                    <img src="./img/producto6.jpg" class="card-img-top" alt="..."">
+                    <div class="card-body">
+                      <h5 class="card-title">IPAD</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk</p>
+                      <a href="#" class="btn btn-primary">Comprar</a>
+                      <a href="#" class="btn btn-secondary">Ver detalles</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                <div class="card">
+                    <img src="./img/producto7.jpg" class="card-img-top" alt="..."">
+                    <div class="card-body">
+                      <h5 class="card-title">Galaxy S21</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk</p>
+                      <a href="#" class="btn btn-primary">Comprar</a>
+                      <a href="#" class="btn btn-secondary">Ver detalles</a>
+                    </div>
+                  </div>
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3 mb-4">
+                <div class="card">
+                    <img src="./img/producto8.jpg" class="card-img-top" alt="..."">
+                    <div class="card-body">
+                      <h5 class="card-title">Airpods</h5>
+                      <p class="card-text">Some quick example text to build on the card title and make up the bulk</p>
+                      <a href="#" class="btn btn-primary">Comprar</a>
+                      <a href="#" class="btn btn-secondary">Ver detalles</a>
+                    </div>
+                  </div>
+            </div>
+        </article>
+    </main>
+
+    <article class="container-fluid px-0 py-3 bg-dark text-white">
+
+        <div class="row g-0 py-5">
+            <div class="col-12">
+                <div class="text-center">
+                    <h2 class="display-3">Palabras de <b>Nuestros clientes....</b></h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime officia illum minima aliquid praesentium, reiciendis, quas, cumque enim libero sit temporibus assumenda adipisci autem accusantium reprehenderit illo corrupti error. Facere.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="row g-0 pb-5">
+            <div class="col-12">
+                <div id="carouselExampleIndicators" class="carousel slide">
+                    <div class="carousel-indicators">
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                      <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <div class="img-area m-auto">
+                            <img src="./img/profile2.jpg" alt="" class="w-100 h-100 rounded-circle">
+                        </div>
+                        <div class="carousel-caption position-static w-50 pb-5 m-auto">
+                            <h3 class="fw-light m-0">Amy Watson</h3>
+                            <h4 class="fw-normal text-primary">Lead Designer</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, fugit adipisci! Debitis beatae voluptatem doloremque quidem dolore veniam fugiat veritatis pariatur reiciendis sequi, et aliquam, blanditiis nisi illo? Magnam, at!</p>
+                          </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="img-area m-auto">
+                            <img src="./img/profile3.jpg" alt="" class="w-100 h-100 rounded-circle">
+                        </div>
+                        <div class="carousel-caption position-static w-50 pb-5 m-auto">
+                            <h3 class="fw-light m-0">Elon Musk</h3>
+                            <h4 class="fw-normal text-primary">TESLA CEO
+                            </h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, fugit adipisci! Debitis beatae voluptatem doloremque quidem dolore veniam fugiat veritatis pariatur reiciendis sequi, et aliquam, blanditiis nisi illo? Magnam, at!</p>
+                          </div>
+                      </div>
+                      <div class="carousel-item">
+                        <div class="img-area m-auto">
+                            <img src="./img/profile1.jpg" alt="" class="w-100 h-100 rounded-circle">
+                        </div>
+                        <div class="carousel-caption position-static w-50 pb-5 m-auto">
+                            <h3 class="fw-light m-0">Gerard Lens</h3>
+                            <h4 class="fw-normal text-primary">Creative Director</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus, fugit adipisci! Debitis beatae voluptatem doloremque quidem dolore veniam fugiat veritatis pariatur reiciendis sequi, et aliquam, blanditiis nisi illo? Magnam, at!</p>
+                          </div>
+                      </div>
+                    </div>
+
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+            </div>
+            
+        </div>
+
+    </article>
+
+    <footer class="d-flex justify-content-center align-items-center bg-black text-white" style="height: 50px;">
+        <p>All Rights Reserved</p>
+    </footer>
+    
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="./firebase.js" type="module"></script>
+  </body>
+</html>
